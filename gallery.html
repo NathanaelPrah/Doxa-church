@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - DOXA EKKLESIA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h2><a href="home.html"><img src="Images/GRM DOXA EKKLESIA BLACK.png" alt="Logo"></a></h2>
+    <nav>
+      <ul class="nav">
+        <li><a href="INDEX.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="gallery-upload-area">
+    <h3 class="section-title">Photo <span>Gallery</span></h3>
+    <div>
+      <label for="imageUpload" class="gallery-btn">Upload Images</label>
+      <input type="file" id="imageUpload" multiple accept="image/*" style="display: none;">
+    </div>
+    <div class="gallery" id="gallery"></div>
+  </section>
+  <button id="clearGallery" class="gallery-btn">Clear Gallery</button>
+
+
+  <footer>
+    <p>&copy; 2024 DOXA EKKLESIA. All rights reserved.</p>
+  </footer>
+
+  <script src="gallery.js"></script>
+</body>
+</html>

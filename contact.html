@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - DOXA EKKLESIA</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <header>
+    <h2><a href="home.html"><img src="Images/GRM DOXA EKKLESIA BLACK.png" alt="Logo"></a></h2>
+    <nav>
+      <ul class="nav">
+        <li><a href="INDEX.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-area">
+    <h3 class="section-title">Get in <span>Touch</span></h3>
+    
+    <div class="contact-container">
+      <!-- Contact Form -->
+   <form id="contactForm">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit" class="contact-btn">Send Message</button>
+  <p id="formFeedback"></p>
+</form>
+
+
+
+      <!-- Google Maps -->
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345091445!2d-122.42197578468102!3d37.77928177975767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581f3a7595153%3A0x9b1d3c6e6e85e45!2sCivic%20Center%2C%20San%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sgh!4v1690838478950!5m2!1sen!2sgh"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <!-- Social Media Links -->
+    <div class="social-media">
+      <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+      <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fa fa-instagram"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 DOXA EKKLESIA. All rights reserved.</p>
+  </footer>
+  <script src="contact.js"></script>
+</body>
+</html>
