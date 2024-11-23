@@ -27,7 +27,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent background */
+  background-color: rgba(231, 212, 212, 0.8); /* Slightly transparent background */
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -92,7 +92,7 @@ header ul.nav li a.active {
 
   header ul.nav {
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(185, 175, 175, 0.9);
     position: absolute;
     top: 60px;
     right: 0;
