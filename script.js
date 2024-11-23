@@ -17,6 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
       verseEl.textContent = "Could not fetch the verse. Please try again later.";
     });
 });
+// JavaScript for toggling the navigation menu on smaller screens
+document.querySelector('.nav-toggle').addEventListener('click', function() {
+  document.querySelector('header ul.nav').classList.toggle('show');
+});
 
 // Smooth Scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {

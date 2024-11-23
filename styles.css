@@ -44,10 +44,33 @@ header h2 img {
 header ul.nav {
   list-style: none;
   display: flex;
+    flex-direction: column;
+  background-color: rgba(218, 218, 218, 0.9);
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 200px;
+  padding: 10px 0;
+}
+header ul.nav.show {
+  display: flex; /* This will show the navigation when toggled */
+}
+/* Mobile toggle button */
+.nav-toggle {
+  display: block;
+  cursor: pointer;
 }
 
+.nav-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background: #fff;
+}
 header ul.nav li {
   margin: 0 15px;
+
 }
 
 header ul.nav li a {
